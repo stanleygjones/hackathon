@@ -4,6 +4,11 @@ Why create a killer app when you can create a hero app? The Hero App Generator e
 
 To get started, you should have the latest version of `dfx` installed. You might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
+In order to successfully build canisters:
+
+- You will need to install `0.5.8` of dfx
+- You will need to replace `0.5.7` with `0.5.8` in `dfx.json` `package-lock.json` and `package.json`.
+
 To learn more before you start working with the Hero App Generator, see the following documentation available online:
 
 - [Quick Start](https://sdk.dfinity.org/developers-guide/quickstart.html)
